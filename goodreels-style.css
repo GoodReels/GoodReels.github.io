@@ -39,7 +39,7 @@
 /* selectors */
 /* changed from body to a class in order to allow different pages to have the same style sheet*/
 .home {
-	/*background: rgba(225, 244, 180, 0.81);*/
+	background: rgba(189, 152, 255, 0.81);
 	/*font-family: Tahoma, Geneva, sans-serif;*/
 	/*font-family: Geneva, Tahoma, sans-serif;*/
 	font-family: 'Open Sans', sans-serif;
