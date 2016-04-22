@@ -85,6 +85,20 @@ h1, h2, h3, h4 {
 	/*background-size: cover;*/
 	margin-right: 60px;
 }
+
+.indexside {
+	height: 856px;
+	width: 120px;
+	background-image: url('menufilm.png');
+	/*background-position: center center;*/
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+	/*background-size: cover;*/
+	margin-right: 60px;
+
+
+}
+
 }
 nav {
 	float: left;
@@ -134,11 +148,24 @@ nav ul li a:hover{
 
 table, th, td {
     border: 2px solid black;
-    text-align: center
+    text-align: center;
+
 }
 
 th {
+	font-family: "Merriweather", serif;
+}
+
+td:hover, th:hover{
+	background: rgba(255, 255, 255, 0.5);
+}
+th {
 	font-size: 1.5em;
+}
+
+#index p{
+	font-style: italic;
+	text-align: center;
 }
 
 footer {

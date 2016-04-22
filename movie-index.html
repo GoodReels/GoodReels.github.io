@@ -11,16 +11,28 @@
 	<!-- class home makes it more versitile and less restrictive down the road -->
 	<body class="home">
 		<!-- 960 fixed width cenetered contianer -->
-	  <div class="container">
+
+	<div class = "page-container clearfix">
+
+	<nav class = "indexside left">  
+			<ul>
+				<li><a href = "http://goodreels.github.io/login">Login</a></li>
+				
+			 	<li><a href = "http://goodreels.github.io/movie-index.html">Index</a></li>
+			
+		
+			</ul>
+	</nav>
+
+	  <div class="container left" id = "index">
 
 			<header>
-			<h1><a href="http://goodreels.github.io/index"><img src="Logo1Small.png" alt="Home."></a></h1>
 			<h1 class = "centerme">Movie Index</h1>
 			</header>
 
 
 			<section>
-			<h2>Movie Table</h2>
+			<h2 class = "hide">Movie Table</h2>
 			<p>Click on the Movie name to go to movie page.  Click on the Header of each column to sort.</p>
 
 			<table border="1" style="width:100%" class="sortable">
@@ -165,11 +177,8 @@
 		</table>
 			</section>
 			
-			<p><a href = "http://goodreels.github.io/index">Home</a></p>
-			
-			<footer>
-					<small> This website made by GroupGroupless &copy; 2016</small>
-			</footer>
+
 	  </div> <!-- end container -->	
+	  </div> <!-- End Page Contianer -->
 	</body>
 </html>
