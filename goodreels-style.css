@@ -86,6 +86,15 @@ h1, h2, h3, h4 {
 	margin-right: 60px;
 }
 
+#sidenav-logo {
+	position: absolute;
+	top: 100px;
+	left 18px;
+	height: 66px;
+	width: 240px;
+	background-color: transparent;
+}
+
 .indexside {
 	height: 856px;
 	width: 120px;
@@ -161,6 +170,10 @@ td:hover, th:hover{
 }
 th {
 	font-size: 1.5em;
+}
+
+figure figcaption {
+	text-align: center;
 }
 
 #index p{
