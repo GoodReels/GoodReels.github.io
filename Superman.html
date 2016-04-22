@@ -25,39 +25,58 @@
 		Superman
 	</h1>
 	</header>
-  <div id="my-signin2"></div>
-  <script>
-    function onSuccess(googleUser) {
-      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
-    }
-    function onFailure(error) {
-      console.log(error);
-    }
-    function renderButton() {
-      gapi.signin2.render('my-signin2', {
-        'scope': 'profile email',
-        'width': 240,
-        'height': 50,
-        'longtitle': true,
-        'theme': 'dark',
-        'onsuccess': onSuccess,
-        'onfailure': onFailure
-      });
-    }
-  </script>
-	<a href="#" onclick="signOut();">Sign out</a>
-	<script>
-	function signOut() {
-	var auth2 = gapi.auth2.getAuthInstance();
-	auth2.signOut().then(function () {
-		console.log('User signed out.');
-	});
-	}
-</script>
+	<br><br>
+	<section class = "clearfix">
+    	<article class = "left">
+    		<section id = "category">
+				<article class = "left">
+				<div align = "right">
+					<p>Director:</p>
+					<br>
+					<p>Actors:</p>
+					<br>
+					<br>
+					<br>
+					<p>Release Date:</p>
+					<br>
+					<p>Description:</p>
+				</div>
+				</article>
+			
+				<article class = "right">
+					<section id = "entry">
+						<p>Richard Donner</p>
+						<br>
+						<p>Marlon Brando</p>
+						<p>Gene Hackman</p>
+						<p>Christopher Reeve</p>
+						<br>
+						<p>1978</p>
+						<br>
+						<p>An alien orphan is sent from his dying planet to<br>Earth, where he grows up to become his<br>adoptive home's first and greatest superhero.</p>
+					</section>
+				</article>
+			</section>
+		</article>
 
-<script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
-<!-- Above code from Google Developers Guide for adding Sign-In & Sign-Out features http://bit.ly/25H3vNC -->
-
+		<article class = "right">
+			<img src = "posters/superman.jpg" alt = "Superman Poster">
+	    </article>
+	</section>
+	
+	<section>
+		<h2>Comments</h2>
+		<script src="https://apis.google.com/js/plusone.js"></script>
+		<div id="comments"></div>
+		<script>
+		gapi.comments.render('comments', {
+			href: window.location,
+			width: '624',
+			first_party_property: 'BLOGGER',
+			view_type: 'FILTERED_POSTMOD'
+		});
+		</script>
+	</section>
 
 </div> <!-- end body contianer -->
 </div> 

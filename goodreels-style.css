@@ -176,6 +176,19 @@ figure figcaption {
 	text-align: center;
 }
 
+#category p{
+	font-family: "Merriweather", serif;
+	margin-right: 10px;
+	text-align: right;
+	font-size: 18px;
+}
+
+#entry p{
+	font-family: "Fira Sans", sans;
+	text-align: left;
+	font-size: 16px;
+}
+
 #index p{
 	font-style: italic;
 	text-align: center;
