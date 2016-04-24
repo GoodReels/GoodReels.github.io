@@ -1,43 +1,78 @@
 <!doctype html>
 
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>The Wizard of Oz</title>
-	</head>
-	<body>
+<head>
+  <meta name="google-signin-client_id" content="415422353192-dhhc5nd8v4g6e6e0bc9ooki8lshtd69m.apps.googleusercontent.com">
+  <title>The Wizard of Oz</title>
+  <link href="goodreels-style.css" rel="stylesheet" >
+</head>
+<body class = "home">
+<div class = "page-container clearfix">
+  <nav class = "sidenav left">  
+      <a id="sidenav-logo" href="http://goodreels.github.io"></a>
+      <ul>
+        <li><a href = "http://goodreels.github.io/login">Login</a></li>
+        
+        <li><a href = "http://goodreels.github.io/movie-index.html">Index</a></li>
+      
+    
+      </ul>
+  </nav>
 
+  <div class="container left">
 	<header>
-	<h1>The Wizard of Oz</h1>
+	<h1>
+	The Wizard of Oz
+	</h1>
 	</header>
 
-	
+		<br><br>
+	<section class = "clearfix">
+    	<article class = "left">
+    		<h4>Director:</h4>
+    		<section id = "entry">
+    			<p>Victor Fleming</p>
+    		</section>
+    		<h4>Actors:</h4>
+    		<section id = "entry">
+    			<p>Judy Garland<br>Frank Morgan<br>Ray Bolger<br></p>
+    		</section>
+    		<h4>Release Date:</h4>
+    		<section id = "entry">
+    			<p>1939</p>
+    		</section>
+    		<h4>MPAA Rating:</h4>
+    		<section id = "entry">
+    			<p>PG/G</p>
+    		</section>
+    		<h4>Description:</h4>
+    		<section id = "entry">
+    			<p>Dorothy (Judy Garland), a young girl from Kansas, is swept off on an adventure to the mystical land of Oz. Pursued by the Wicked Witch of the West on her quest to find the Wizard and return home, Dorothy forms friendships with Scarecrow, Tin Man, and the Cowardly Lion.</p>
+			</section>
 
-	<section>
-		<h2></h2>
+		</article>
 
-		<figure>
-	<img src= "posters/wizard-of-oz.jpg">
-	</figure>
-
-	<article>
-	<h2> Description </h2>
-	<p>Dorothy (Judy Garland), a young girl from Kansas, is swept off on an adventure to the mystical land of Oz. Pursued by the Wicked Witch of the West on her quest to find the Wizard and return home, Dorothy forms friendships with Scarecrow, Tin Man, and the Cowardly Lion.</p>
-	</article>
-
-	 <script src="https://apis.google.com/js/plusone.js"></script>
-	<div id="comments"></div>
-	<script>
-	gapi.comments.render('comments', {
-	    href: window.location,
-	    width: '624',
-	    first_party_property: 'BLOGGER',
-	    view_type: 'FILTERED_POSTMOD'
-	});
-	</script>
-
-
+		<article class = "right">
+			<img src = "posters/wizard-of-oz.jpg" alt = "Movie Poster">
+	    </article>
 	</section>
-	</body>
-</html>
+	
+	<section>
+		<h2>Comments</h2>
+		<script src="https://apis.google.com/js/plusone.js"></script>
+		<div id="comments"></div>
+		<script>
+		gapi.comments.render('comments', {
+			href: window.location,
+			width: '624',
+			first_party_property: 'BLOGGER',
+			view_type: 'FILTERED_POSTMOD'
+		});
+		</script>
+	</section>
 
+</div> <!-- end body contianer -->
+</div> 
+
+</body>
+</html>
