@@ -1,49 +1,77 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html>
-	<p><a href = "http://goodreels.github.io/index">Main</a></p>
-	<head>
-		<meta charset="utf-8">
-		<title>Casablanca</title>
-	</head>
-	<body>
+<head>
+  <meta name="google-signin-client_id" content="415422353192-dhhc5nd8v4g6e6e0bc9ooki8lshtd69m.apps.googleusercontent.com">
+  <title>Casablanca</title>
+  <link href="goodreels-style.css" rel="stylesheet" >
+</head>
+<body class = "home">
+<div class = "page-container clearfix">
+  <nav class = "sidenav left">  
+      <a id="sidenav-logo" href="http://goodreels.github.io"></a>
+      <ul>
+        <li><a href = "http://goodreels.github.io/login">Login</a></li>
+        
+        <li><a href = "http://goodreels.github.io/movie-index.html">Index</a></li>
+      
+    
+      </ul>
+  </nav>
 
+
+  <div class="container left">
 	<header>
-	<h1>Casablanca</h1>
+	<h1>
+		Casablanca
+	</h1>
 	</header>
+	<br><br>
+	<section class = "clearfix">
+    	<article class = "left">
+    		<h4>Director:</h4>
+    		<section id = "entry">
+    			<p>Michael Curtiz</p>
+    		</section>
+    		<h4>Actors:</h4>
+    		<section id = "entry">
+    			<p>Humphrey Bogart<br>Ingrid Bergman<br>Paul Henreid<br></p>
+    		</section>
+    		<h4>Release Date:</h4>
+    		<section id = "entry">
+    			<p>1942</p>
+    		</section>
+    		<h4>MPAA Rating:</h4>
+    		<section id = "entry">
+    			<p>PG</p>
+    		</section>
+    		<h4>Description:</h4>
+    		<section id = "entry">
+			<p>In Casablanca, Morocco during the early days of World War II, an American expatriate meets a former lover, with unforeseen complications.</p>
+			</section>
 
-	
+		</article>
 
-	<section>
-		<h2></h2>
-
-		<figure>
-	<img src= "posters/casablanca.jpg">
-	</figure>
-
-	<article>
-	<h2> Description </h2>
-	<p>In Casablanca, Morocco during the early days of World War II, an American expatriate meets a former lover, with unforeseen complications.</p>
-	</article>
-	
-	<script src="https://apis.google.com/js/plusone.js"></script>
-	<div id="comments"></div>
-	<script>
-	gapi.comments.render('comments', {
-	    href: window.location,
-	    width: '624',
-	    first_party_property: 'BLOGGER',
-	    view_type: 'FILTERED_POSTMOD'
-	});
-	</script>
-
-	 <!--<div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
- <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
- <script type="text/javascript" id="hcb"> /*--><!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="//www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24JjI8jRcRvE4fyE%2FQ.6OHb."+"&opts=16862&num=10&ts=1459530597988");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
-<!-- end www.htmlcommentbox.com -->
-
+		<article class = "right">
+			<img src = "posters/casablanca.jpg" alt = "Casablanca Poster">
+	    </article>
 	</section>
 	
-	</body>
-</html>
+	<section>
+		<h2>Comments</h2>
+		<script src="https://apis.google.com/js/plusone.js"></script>
+		<div id="comments"></div>
+		<script>
+		gapi.comments.render('comments', {
+			href: window.location,
+			width: '624',
+			first_party_property: 'BLOGGER',
+			view_type: 'FILTERED_POSTMOD'
+		});
+		</script>
+	</section>
 
+</div> <!-- end body contianer -->
+</div> 
+
+</body>
+</html>
